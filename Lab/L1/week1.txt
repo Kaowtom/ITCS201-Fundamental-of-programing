@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    // Declare some variables
+    float radius;
+    float pi = 22/7;
+  
+    // Receive a radius 
+    scanf("%f", &radius);
+  
+    // Calculate the area and the perimeter of a circle
+    float area = pi * radius * radius;
+    float perimeter = 2 * (pi) * radius;
+  
+    // Print out the outputs
+    printf("Area of the circle is %.2f \n", area);
+    printf("Perimeter of the circle is %.2f", perimeter);
+  
+    return 0;
+}
